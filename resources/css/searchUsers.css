@@ -1,0 +1,253 @@
+/* Variables para el tema claro */
+:root {
+    --bg-color: #ffffff;
+    --text-color: #000000;
+    --card-bg: #ffffff;
+    --btn-bg: #007bff;
+    --btn-text: #ffffff;
+    --navbar-footer-bg: #403b8a; /* Color del logo en modo claro */
+}
+
+/* Variables para el tema oscuro */
+body.dark-theme {
+    --bg-color: #121212;
+    --text-color: #e0e0e0;
+    --card-bg: #1e1e1e;
+    --btn-bg: #0d6efd;
+    --btn-text: #ffffff;
+    --navbar-footer-bg: #403b8a; /* Color del logo en modo oscuro */
+}
+
+/* Estilos aplicados */
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+body,html{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+main{
+    flex:1;
+    margin-bottom: 4em;
+}
+
+
+.custom-navbar-bg, footer {
+    background-color: var(--navbar-footer-bg);
+    color: var(--text-color);
+}
+
+.navbar-left,
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-left a,
+.navbar-right a {
+    margin: 0 0.6em; /* Espaciado entre botones */
+    color: white; /* Color de texto para los botones */
+    background-color: rgb(64, 59, 138); /* Color de fondo de los botones */
+    border: 1px solid transparent; /* Borde transparente por defecto */
+    border-radius: 0.4em; /* Bordes redondeados */
+    padding: 1em 1.4em; 
+    font-size: 1.3em; 
+    text-decoration: none; /* Sin subrayado en el texto */
+}
+
+.navbar-left a:hover,
+.navbar-right a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+.logo {
+    height: 8em;
+    width: 8em;
+}
+
+.card {
+    background-color: var(--card-bg);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    color: var(--text-color);
+}
+
+.btn-primary {
+    background-color: var(--btn-bg);
+    color: var(--btn-text);
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color:rgb(64, 59, 138);
+}
+
+#userResultsContainer .user-card {
+    background-color: var(--card-bg);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+}
+
+#userResultsContainer .user-card img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+#userResultsContainer .user-info h5 {
+    margin: 0;
+    color: var(--text-color);
+}
+
+#userResultsContainer .user-info p {
+    margin: 5px 0;
+    color: var(--text-color);
+}
+
+.footer {
+    background-color: var(--navbar-footer-bg); /* Color de fondo del footer */
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border-top: 1px solid #e0e0e0;
+    z-index: 10;
+}
+
+.footer .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #cccccc;
+    text-decoration: underline;
+}
+
+.footer i {
+    font-size: 24px;
+}
+
+.footer .btn-floating {
+    border-radius: 50%;
+    margin: 0 10px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer .btn-floating:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+img{
+    height: 8em;
+    width: 8em;
+}
+
+/* Estilo general para el dropdown */
+.dropdown-menu {
+    padding: 0; /* Sin padding extra */
+    border: 1px solid rgba(0, 0, 0, 0.1); /* Borde del menú */
+    border-radius: 0.5rem; /* Bordes redondeados */
+    background-color: rgb(64, 59, 138); /* Fondo del menú */
+    width: 200px; /* Ancho fijo o ajustable */
+    position: absolute; /* Asegurar posición relativa al contenedor */
+    display: none; /* Ocultar por defecto */
+    z-index: 1000; /* Asegurar visibilidad */
+}
+
+/* Mostrar el menú al pasar el ratón */
+.dropdown:hover > .dropdown-menu {
+    display: block; /* Mostrar el menú principal */
+}
+
+/* Estilo de los elementos del menú */
+.dropdown-item {
+    display: block; /* Convertir en bloque */
+    width: 100%; /* Asegurar ancho completo */
+    padding: 0.5rem 1rem; /* Espaciado interno */
+    text-align: left; /* Alinear texto a la izquierda */
+    white-space: nowrap; /* Evitar cortes de texto */
+    color: inherit; /* Heredar color según el tema */
+    box-sizing: border-box; /* Incluir padding y borde en el ancho */
+    border: none; /* Eliminar bordes extra */
+}
+
+/* Hover en los elementos del menú */
+.dropdown-item:hover {
+    background-color: rgba(0, 0, 0, 0.2); /* Fondo más oscuro */
+    color: #fff; /* Texto más claro */
+}
+
+/* Submenús */
+.dropdown-submenu {
+    position: relative; /* Relativo al padre */
+}
+
+.dropdown-submenu .dropdown-menu {
+    left: 100%; /* Posición al lado derecho del menú principal */
+    top: 0; /* Alineación vertical */
+    margin: 0; /* Sin márgenes adicionales */
+    border: 1px solid rgba(0, 0, 0, 0.1); /* Borde del submenú */
+    display: none; /* Ocultar por defecto */
+}
+
+/* Mostrar submenús al pasar el ratón */
+.dropdown-submenu:hover > .dropdown-menu {
+    display: block; /* Mostrar submenú */
+}
+
+
+/* Estilos generales para la ventana modal */
+.modal-content {
+    background-color: #fff;
+    color: #000;
+}
+
+/* Estilos específicos para el tema oscuro */
+.modal-dark .modal-content {
+    background-color: #333;
+    color: #fff;
+}
+
+.modal-dark .modal-header,
+.modal-dark .modal-footer {
+    background-color: #444;
+    color: #fff;
+}
+
+.modal-dark .close {
+    color: #fff;
+}
