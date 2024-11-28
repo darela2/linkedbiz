@@ -122,7 +122,7 @@ Ahora puedes acceder al proyecto en `http://localhost:8000`.
 
 ---
 
-## **Licencia**  
+# **Licencia**  
 Este proyecto está bajo la licencia [MIT](https://opensource.org/licenses/MIT). 
 Este proyecto está bajo la licencia [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by-nc/4.0/).
 
@@ -130,5 +130,5 @@ Puedes compartir, copiar y adaptar el contenido del proyecto siempre y cuando ot
 
 ---
 
-## **Contacto**  
+# **Contacto**  
 Si tienes preguntas o sugerencias, no dudes en contactarme en [davidredondo2002.d@gmail.com](mailto:davidredondo2002.dr@gmail.com).  
