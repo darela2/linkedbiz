@@ -7,9 +7,9 @@
 </p>  
 
 <p align="center">
-  <a href="https://github.com/tuusuario/linkedbiz/actions"><img src="https://github.com/darela2/linkedbiz/workflows/tests/badge.svg" alt="Build Status"></a>
-  <a href="https://github.com/tuusuario/linkedbiz/releases"><img src="https://img.shields.io/github/v/release/darela2/linkedbiz" alt="Release"></a>
-  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License"></a>
+   <a href="https://github.com/darela2/linkedbiz/actions"><img src="https://github.com/darela2/linkedbiz/workflows/tests/badge.svg" alt="Build Status"></a>
+  <a href="https://github.com/darela2/linkedbiz/releases"><img src="https://img.shields.io/github/v/release/darela2/linkedbiz" alt="Release"></a>
+  <a href="https://creativecommons.org/licenses/by/4.0/"><img src="https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg" alt="License"></a>
 </p>
 
 ---
@@ -50,8 +50,8 @@ Asegúrate de que tu entorno cumple con los siguientes requisitos:
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tu_usuario/tu_repositorio.git
-   cd tu_repositorio
+   git clone https://github.com/darela2/linkedbiz.git
+   cd linkedbiz
    ```
 2. Configura XAMPP
 
