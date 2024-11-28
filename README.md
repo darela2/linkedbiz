@@ -3,7 +3,7 @@
 **Conecta. Colabora. Crece.**  
 
 <p align="center">
-  <img src="resources/views/logo-linkedbiz.png" width="400" alt="LinkedBiz Logo">
+  <img src="resources/views/logo-linkedbiz.png" width="200" alt="LinkedBiz Logo">
 </p>  
 
 <p align="center">
