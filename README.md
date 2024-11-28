@@ -80,7 +80,7 @@ Asegúrate de que tu entorno cumple con los siguientes requisitos:
 
 6. **Importa la base de datos:**
    - Abre phpMyAdmin desde el panel de XAMPP.
-   - Importa el archivo de la base de datos (linkedbiz.sql) desde la carpeta `database` del proyecto.
+   - Importa el archivo de la base de datos `linkedbiz.sql` desde la carpeta `database` del proyecto.
    - Este archivo contiene las tablas y datos necesarios para que la aplicación funcione correctamente.
 
 7. Genera la clave de la aplicación:
