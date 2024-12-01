@@ -3,13 +3,12 @@
 **Conecta. Colabora. Crece.**  
 
 <p align="center">
-  <img src="resources/views/logo-linkedbiz.png" width="400" alt="LinkedBiz Logo">
+  <img src="resources/views/logo-linkedbiz.png" width="200" alt="LinkedBiz Logo">
 </p>  
 
 <p align="center">
-  <a href="https://github.com/tuusuario/linkedbiz/actions"><img src="https://github.com/darela2/linkedbiz/workflows/tests/badge.svg" alt="Build Status"></a>
-  <a href="https://github.com/tuusuario/linkedbiz/releases"><img src="https://img.shields.io/github/v/release/darela2/linkedbiz" alt="Release"></a>
-  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License"></a>
+  <a href="https://github.com/darela2/linkedbiz/releases"><img src="https://img.shields.io/github/v/release/darela2/linkedbiz" alt="Release"></a>
+  <a href="https://creativecommons.org/licenses/by/4.0/"><img src="https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg" alt="License"></a>
 </p>
 
 ---
@@ -50,8 +49,8 @@ Asegúrate de que tu entorno cumple con los siguientes requisitos:
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tu_usuario/tu_repositorio.git
-   cd tu_repositorio
+   git clone https://github.com/darela2/linkedbiz.git
+   cd linkedbiz
    ```
 2. Configura XAMPP
 
@@ -81,7 +80,7 @@ Asegúrate de que tu entorno cumple con los siguientes requisitos:
 
 6. **Importa la base de datos:**
    - Abre phpMyAdmin desde el panel de XAMPP.
-   - Importa el archivo de la base de datos (linkedbiz.sql) desde la carpeta `database` del proyecto.
+   - Importa el archivo de la base de datos `linkedbiz.sql` desde la carpeta `database` del proyecto.
    - Este archivo contiene las tablas y datos necesarios para que la aplicación funcione correctamente.
 
 7. Genera la clave de la aplicación:
@@ -123,7 +122,7 @@ Ahora puedes acceder al proyecto en `http://localhost:8000`.
 
 ---
 
-## **Licencia**  
+# **Licencia**  
 Este proyecto está bajo la licencia [MIT](https://opensource.org/licenses/MIT). 
 Este proyecto está bajo la licencia [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by-nc/4.0/).
 
@@ -131,5 +130,5 @@ Puedes compartir, copiar y adaptar el contenido del proyecto siempre y cuando ot
 
 ---
 
-## **Contacto**  
+# **Contacto**  
 Si tienes preguntas o sugerencias, no dudes en contactarme en [davidredondo2002.d@gmail.com](mailto:davidredondo2002.dr@gmail.com).  
