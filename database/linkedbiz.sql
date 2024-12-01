@@ -166,7 +166,7 @@ INSERT INTO `usuario` (`ID`, `Nombre`, `Apellidos`, `Biografia`, `Usuario`, `Con
 (2, 'Jose ', 'García', 'Project manager en desarrollo de software.', 'josegarcia', 'password123', 'jose.garcia@yottadesarrollos.com', '1999-04-28', NULL, 'B02586451'),
 (3, 'Marta', 'Jiménez', 'Diseñadora UX/UI con pasión por la innovación.', 'martajimenez', 'password123', 'marta.jimenez@yottadesarrollos.com', '1994-02-02', NULL, 'B02586451'),
 (4, 'Pedro', 'Ramírez', 'Consultor en transformación digital y big data.', 'pedroramirez', 'password123', 'pedro.ramirez@nttdata.com', '1984-06-08', NULL, 'B82387770'),
-(5, 'Elena', 'Torres', 'Soy otro usuario de prueba', 'elenatorres', 'password123', 'elena.torres@nttdata.com', '1998-01-12', 'fotoEjemploChica.jpg', 'B82387770');
+(5, 'Elena', 'Torres', 'Especialista en innovación tecnológica.', 'elenatorres', 'password123', 'elena.torres@nttdata.com', '1998-01-12', 'fotoEjemploChica.jpg', 'B82387770');
 
 --
 -- Índices para tablas volcadas
