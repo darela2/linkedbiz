@@ -60,8 +60,8 @@ class RegistrarUsuarioController extends Controller
         // Si tiene foto de perfil
         if ($request->hasFile('userPhoto')) {
             $file = $request->file('userPhoto');
-            $path = $file->store(''); // Guardar la foto directamente en el directorio 'storage/'
-            $usuario->photo = basename($path); // Almacenar solo el nombre del archivo
+            $path = $file->store('app/'); // Guardar la foto directamente en el directorio 'storage/app'
+            $usuario->Fotografia = basename($path); // Almacenar solo el nombre del archivo
         }
 
         //Guarda el usuario en la base de datos

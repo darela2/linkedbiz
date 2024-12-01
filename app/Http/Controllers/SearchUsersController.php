@@ -72,7 +72,7 @@ class SearchUsersController extends Controller
 
         // Verificar si el usuario tiene una fotografia
         if ($usuario->Fotografia) {
-            $usuario->Fotografia = '/proyectofinal-linkedbiz/storage/' . $usuario->Fotografia;
+            $usuario->Fotografia = '/proyectofinal-linkedbiz/storage/app/app/' . $usuario->Fotografia;
         } else if($usuario->Fotografia == NULL) {
             $usuario->Fotografia = 'https://static.vecteezy.com/system/resources/thumbnails/009/292/244/small/default-avatar-icon-of-social-media-user-vector.jpg';
         }

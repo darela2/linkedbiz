@@ -132,7 +132,7 @@ document.addEventListener("DOMContentLoaded", function() {
     amigosData.forEach(amigo => {
         const friendCard = document.createElement('div');
         friendCard.classList.add('card', 'mb-2', 'friend-card'); // Clases para el diseño de la tarjeta
-        const fotoSrc = `/proyectofinal-linkedbiz/storage/${amigo.Fotografia}` ? `/proyectofinal-linkedbiz/storage/${amigo.Fotografia}` : 'https://static.vecteezy.com/system/resources/thumbnails/009/292/244/small/default-avatar-icon-of-social-media-user-vector.jpg';
+        const fotoSrc = `/proyectofinal-linkedbiz/storage/app/app/${amigo.Fotografia}` ? `/proyectofinal-linkedbiz/storage/app/app/${amigo.Fotografia}` : 'https://static.vecteezy.com/system/resources/thumbnails/009/292/244/small/default-avatar-icon-of-social-media-user-vector.jpg';
         friendCard.innerHTML = `
             <div class="card-body d-flex align-items-center">
                 <img src="${fotoSrc}" alt="Foto de ${amigo.Usuario}" class="rounded-circle me-3" style="width: 40px; height: 40px;">

@@ -93,7 +93,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 if (user.Fotografia === null) {
                     user.Fotografia = 'https://static.vecteezy.com/system/resources/thumbnails/009/292/244/small/default-avatar-icon-of-social-media-user-vector.jpg';
                 }
-                else user.Fotografia = 'storage/' + user.Fotografia;
+                else user.Fotografia = 'storage/app/app/' + user.Fotografia;
 
                 // Crear una tarjeta de usuario
                 resultsContainer.innerHTML += `

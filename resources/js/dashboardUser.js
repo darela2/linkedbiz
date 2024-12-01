@@ -170,7 +170,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
                 // Si hay una nueva foto, actualizar la imagen de perfil
                 if (data.user.Fotografia) {
-                    const newPhotoUrl = `/proyectofinal-linkedbiz/storage/${data.user.Fotografia}`;
+                    const newPhotoUrl = `/proyectofinal-linkedbiz/storage/app/app/${data.user.Fotografia}`;
                     console.log(newPhotoUrl);
                     document.getElementById('userPhoto').src = newPhotoUrl;
                 }
@@ -234,7 +234,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const formattedDate = post.Fecha ? new Date(post.Fecha).toLocaleString() : 'Fecha no disponible';
         const postContent = post.Contenido || 'Sin contenido'; 
         const currentUserName = user.Nombre + " " + user.Apellidos;
-        const currentUserPhoto = user.Fotografia ? `/proyectofinal-linkedbiz/storage/${user.Fotografia}` : 'https://static.vecteezy.com/system/resources/thumbnails/009/292/244/small/default-avatar-icon-of-social-media-user-vector.jpg';
+        const currentUserPhoto = user.Fotografia ? `/proyectofinal-linkedbiz/storage/app/app/${user.Fotografia}` : 'https://static.vecteezy.com/system/resources/thumbnails/009/292/244/small/default-avatar-icon-of-social-media-user-vector.jpg';
         
         let postImageHtml = '';
         if (post.Imagen) {
@@ -384,7 +384,7 @@ document.addEventListener('DOMContentLoaded', function() {
         console.log(comment.Fecha);
         const formattedDate = comment.Fecha.toLocaleString();
         const currentUserName = comment.usuario.Nombre + " " + comment.usuario.Apellidos;
-        const currentUserPhoto = comment.usuario.Fotografia ? `/proyectofinal-linkedbiz/storage/${comment.usuario.Fotografia}` : 'https://static.vecteezy.com/system/resources/thumbnails/009/292/244/small/default-avatar-icon-of-social-media-user-vector.jpg';
+        const currentUserPhoto = comment.usuario.Fotografia ? `/proyectofinal-linkedbiz/storage/app/app/${comment.usuario.Fotografia}` : 'https://static.vecteezy.com/system/resources/thumbnails/009/292/244/small/default-avatar-icon-of-social-media-user-vector.jpg';
 
         newComment.innerHTML = `
             <div class="d-flex align-items-center">
@@ -404,7 +404,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const friendsContainer = document.getElementById('friendsList');
         const friendCard = document.createElement('div');
         console.log(friend.fotografia);
-        const fotoSrc = friend.fotografia ? `/proyectofinal-linkedbiz/storage/${friend.fotografia}` : 'https://static.vecteezy.com/system/resources/thumbnails/009/292/244/small/default-avatar-icon-of-social-media-user-vector.jpg';
+        const fotoSrc = friend.fotografia ? `/proyectofinal-linkedbiz/storage/app/app/${friend.fotografia}` : 'https://static.vecteezy.com/system/resources/thumbnails/009/292/244/small/default-avatar-icon-of-social-media-user-vector.jpg';
         friendCard.classList.add('card', 'mb-2', 'friend-card');
         friendCard.innerHTML = `
             <div class="card-body d-flex align-items-center">
@@ -431,7 +431,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         const userPhotoElement = document.getElementById('userPhoto');
         if (user.Fotografia) {
-            userPhotoElement.setAttribute('src', `/proyectofinal-linkedbiz/storage/${user.Fotografia}`);
+            userPhotoElement.setAttribute('src', `/proyectofinal-linkedbiz/storage/app/app/${user.Fotografia}`);
         } else {
             userPhotoElement.setAttribute('src', 'https://static.vecteezy.com/system/resources/thumbnails/009/292/244/small/default-avatar-icon-of-social-media-user-vector.jpg');
         }

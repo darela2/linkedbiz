@@ -122,7 +122,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         <td>${user.Contraseña}</td>
                         <td>${user.Email}</td>
                         <td>${user.FechaNacimiento}</td>
-                        <td>${user.Fotografia ? `<img src="/proyectofinal-linkedbiz/storage/${user.Fotografia}" alt="Foto perfil" style="width: 50px; height: auto;">` : `<img src="https://static.vecteezy.com/system/resources/thumbnails/009/292/244/small/default-avatar-icon-of-social-media-user-vector.jpg" alt="Foto perfil" style="width: 50px; height: auto;">`}</td>
+                        <td>${user.Fotografia ? `<img src="/proyectofinal-linkedbiz/storage/app/app/${user.Fotografia}" alt="Foto perfil" style="width: 50px; height: auto;">` : `<img src="https://static.vecteezy.com/system/resources/thumbnails/009/292/244/small/default-avatar-icon-of-social-media-user-vector.jpg" alt="Foto perfil" style="width: 50px; height: auto;">`}</td>
                         <td>
                             <button class="btn btn-info btn-sm view-posts-btn" data-id="${user.ID}">Ver Publicaciones</button>
                             <button class="btn btn-danger btn-sm delete-user-btn" data-id="${user.ID}">Eliminar</button>
